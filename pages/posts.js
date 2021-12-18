@@ -14,53 +14,30 @@ const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        My posts about Android
       </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="My Fish workflow"
+            title="Android RecyclerView Adapter Example — Multiple ViewTypes"
             thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
+            href="https://medium.com/@furkantrkn/android-recyclerview-adapter-örneği-multiple-çoklu-viewtypes-viewholders-75f5fa90dc8d"
           />
           <GridItem
-            title="My desk setup (Late 2020)"
+            title="Android Drawable Vector Image Creation with SVG pathdata"
             thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            href="https://medium.com/@furkantrkn/svg-pathdata-ile-android-drawable-vektörel-görsel-oluşturma-29267fbd6055"
           />
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.3}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
-            thumbnail={thumb500PaidUsers}
-            href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
-          />
-          <GridItem
-            title="I stopped setting a financial goal for my SaaS"
-            thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
-          />
-        </SimpleGrid>
-      </Section>
-
-      <Section delay={0.5}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How to Price Yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
-          />
-          <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
-          />
-        </SimpleGrid>
-      </Section>
+      <a 
+      href="https://medium.com/@furkantrkn"
+      target="_blank"
+      as="h3" fontSize={30} mb={4}>
+        Click to access all my articles on various topics!
+      </a>
     </Container>
   </Layout>
 )
