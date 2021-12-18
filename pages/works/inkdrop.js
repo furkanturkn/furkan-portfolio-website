@@ -1,0 +1,39 @@
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+import Layout from '../../components/layouts/article'
+
+const Work = () => (
+  <Layout title="Inkdrop">
+    <Container>
+      <Title>
+        Smart Park <Badge>2020-</Badge>
+      </Title>
+      <P>
+      A parking software running on payment terminals with Android operating system<br></br><br></br>
+      • Vehicle photography<br></br>
+      • Payment system<br></br>
+      • Valet location and transaction tracking<br></br>
+      • Vehicle transfer<br></br>
+      • E-Archive integration 
+      </P>
+      <List ml={4} my={4}>
+        
+        <ListItem>
+          <Meta>Platform</Meta>
+          <span>Android</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Stack</Meta>
+          <span>Kotlin, Java, MsSQL</span>
+        </ListItem>
+      </List>
+
+      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+    </Container>
+  </Layout>
+)
+
+export default Work
