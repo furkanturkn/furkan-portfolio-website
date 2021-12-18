@@ -31,6 +31,7 @@ const Posts = () => (
       <a 
       href="https://medium.com/@furkantrkn"
       target="_blank"
+      rel="noreferrer"
       as="h3" fontSize={30} mb={4}>
         Click to access all my articles on various topics!
       </a>
