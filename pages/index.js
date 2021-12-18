@@ -98,7 +98,7 @@ const Home = () => (
           Work as a freelance native android and ios mobile development
         </BioSection>
         <BioSection>
-          <BioYear>2020 to present</BioYear>
+          <BioYear>2020 to 2022</BioYear>
           Work as a native android developer at Sekompos
         </BioSection>
       </Section>
@@ -109,7 +109,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           working on educational softwares
-          and learning Jetpack Compose + Ktor.
+          and learning Flutter + Ktor.
         </Paragraph>
       </Section>
 
