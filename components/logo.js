@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Furkan Türkan
+            Takuya Matsuyama
           </Text>
         </LogoBox>
       </a>

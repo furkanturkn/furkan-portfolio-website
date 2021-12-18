@@ -5,6 +5,7 @@ import {
   Heading,
   Box,
   Image,
+  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,11 +17,10 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {
-  IoLogoGithub,
-  IoLogoLinkedin,
-  IoLogoMedium
-} from 'react-icons/io5'
+import { GridItem } from '../components/grid-item'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import thumbYouTube from '../public/images/links/youtube.png'
+import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => (
   <Layout>
@@ -32,15 +32,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a native android developer based in Turkey!
+        Hello, I&apos;m a full-stack developer based in Japan!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Furkan Türkan
+            Takuya Matsuyama
           </Heading>
-          <p>Native Android Developer</p>
+          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -66,10 +66,16 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am developing Anroid applications using Kotlin and
-          Java. I also work on automation and web scraping with
-          python. I have intermediate knowledge of Wordpress,
-          Adobe Illustrator and Photoshop.{' '}
+          Takuya is a freelance and a full-stack developer based in Osaka with a
+          passion for building digital services/stuff he wants. He has a knack
+          for all things launching products, from planning and designing all the
+          way to solving real-life problems with code. When not online, he loves
+          hanging out with his camera. Currently, he is living off of his own
+          product called{' '}
+          <NextLink href="/works/inkdrop">
+            <Link>Inkdrop</Link>
+          </NextLink>
+          .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -85,31 +91,39 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000</BioYear>
-          Born in Turkey.
+          <BioYear>1984</BioYear>
+          Born in Osaka (大阪), Japan.
         </BioSection>
         <BioSection>
-          <BioYear>2019</BioYear>
-          Start to study department of Computer Education and Instructional Technologies
-          at Bahçeşehir University.
+          <BioYear>2010</BioYear>
+          Completed the Master&apos;s Program in the Graduate School of
+          Information Science at Nara Institute of Science and Technology
+          (奈良先端科学技術大学院大学情報科学研究科修士課程)
         </BioSection>
         <BioSection>
-          <BioYear>2018 to 2020</BioYear>
-          Work as a freelance native android and ios mobile development
+          <BioYear>2010</BioYear>
+          Worked at Yahoo! Japan (ヤフー株式会社入社)
         </BioSection>
         <BioSection>
-          <BioYear>2020 to present</BioYear>
-          Work as a native android developer at Sekompos
+          <BioYear>2012 to present</BioYear>
+          Works as a freelance
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        🌱 I’m currently
+          I ♥
         </Heading>
         <Paragraph>
-          working on educational softwares
-          and learning Jetpack Compose + Ktor.
+          Art, Music,{' '}
+          <Link href="https://illust.odoruinu.net/" target="_blank">
+            Drawing
+          </Link>
+          , Playing Drums,{' '}
+          <Link href="https://500px.com/p/craftzdog" target="_blank">
+            Photography
+          </Link>
+          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
@@ -119,39 +133,67 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/genjitsuCode" target="_blank">
+            <Link href="https://github.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @genjitsuCode
+                @craftzdog
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/furkanturkan/" target="_blank">
+            <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoLinkedin} />}
+                leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @furkanturkan
+                @inkdrop_app (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://medium.com/@furkantrkn" target="_blank">
+            <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoMedium} />}
+                leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @furkantrkn
+                @craftzdog (日本語)
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/craftzdog" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoInstagram} />}
+              >
+                @craftzdog
               </Button>
             </Link>
           </ListItem>
         </List>
+
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="https://www.youtube.com/devaslife"
+            title="Dev as Life"
+            thumbnail={thumbYouTube}
+          >
+            My YouTube channel
+          </GridItem>
+          <GridItem
+            href="https://www.inkdrop.app/"
+            title="Inkdrop"
+            thumbnail={thumbInkdrop}
+          >
+            A Markdown note-taking app
+          </GridItem>
+        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts">
