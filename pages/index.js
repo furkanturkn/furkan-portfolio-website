@@ -67,8 +67,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I am developing Anroid applications using Kotlin and
-          Java. I also work on automation and web scraping with
-          python. I have intermediate knowledge of Adobe Illustrator, Photoshop, XD.{' '}
+          Java. I also worked on native iOS application development with Swift for a while. 
+          I have intermediate knowledge of Adobe Illustrator, Photoshop, XD.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -107,7 +107,7 @@ const Home = () => (
         🌱 I’m currently
         </Heading>
         <Paragraph>
-          working on educational softwares
+          working on designing educational softwares
           and learning Flutter + Ktor.
         </Paragraph>
       </Section>
