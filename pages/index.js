@@ -68,8 +68,7 @@ const Home = () => (
         <Paragraph>
           I am developing Anroid applications using Kotlin and
           Java. I also work on automation and web scraping with
-          python. I have intermediate knowledge of Wordpress,
-          Adobe Illustrator and Photoshop.{' '}
+          python. I have intermediate knowledge of Adobe Illustrator, Photoshop, XD.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
