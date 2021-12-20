@@ -94,7 +94,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018 to 2020</BioYear>
-          Work as a freelance native android and ios mobile development
+          Work as a freelance native android and ios mobile developer
         </BioSection>
         <BioSection>
           <BioYear>2020 to 2022</BioYear>
