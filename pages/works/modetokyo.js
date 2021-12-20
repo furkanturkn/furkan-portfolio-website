@@ -10,7 +10,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="mode.tokyo">
+  <Layout title="VisibleVehicle">
     <Container>
       <Title>
         Visible Vehicle <Badge>2019</Badge>
