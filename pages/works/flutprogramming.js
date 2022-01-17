@@ -9,7 +9,7 @@ import {
     <Layout title="amembo">
       <Container>
         <Title>
-          amembo <Badge>2005-2008</Badge>
+          Variables Programming <Badge>2022</Badge>
         </Title>
         <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="900px"></iframe>
   
