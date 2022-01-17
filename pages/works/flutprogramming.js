@@ -11,7 +11,7 @@ import {
         <Title>
           amembo <Badge>2005-2008</Badge>
         </Title>
-      
+        <iframe src="/works" width="100%"></iframe>
   
       </Container>
     </Layout>
