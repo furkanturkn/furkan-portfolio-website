@@ -11,7 +11,7 @@ import {
         <Title>
           amembo <Badge>2005-2008</Badge>
         </Title>
-        <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%"></iframe>
+        <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="900px"></iframe>
   
       </Container>
     </Layout>
