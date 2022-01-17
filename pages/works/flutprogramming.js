@@ -14,7 +14,7 @@ import {
       
   
       </Container>
-      <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="900px"></iframe>
+      <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="700px"></iframe>
     </Layout>
   )
   
