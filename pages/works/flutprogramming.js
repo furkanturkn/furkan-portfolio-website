@@ -11,9 +11,10 @@ import {
         <Title>
           Variables Programming <Badge>2022</Badge>
         </Title>
-        <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="900px"></iframe>
+      
   
       </Container>
+      <iframe src="https://flutter.atakancelik.com.tr/#/" width="100%" height="900px"></iframe>
     </Layout>
   )
   
