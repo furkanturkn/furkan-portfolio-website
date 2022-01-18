@@ -68,7 +68,7 @@ const Home = () => (
         <Paragraph>
           I am developing Anroid applications using Kotlin and
           Java. I also worked on native iOS application development with Swift for a while. 
-          I have intermediate knowledge of Adobe Illustrator, Photoshop, XD.{' '}
+          I have intermediate knowledge of Adobe Illustrator, Photoshop, XD and Animate.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
