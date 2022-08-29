@@ -19,7 +19,8 @@ import Section from '../components/section'
 import {
   IoLogoGithub,
   IoLogoLinkedin,
-  IoLogoMedium
+  IoLogoMedium,
+  IoLogoYoutube
 } from 'react-icons/io5'
 
 const Home = () => (
@@ -107,8 +108,7 @@ const Home = () => (
         🌱 I’m currently
         </Heading>
         <Paragraph>
-          working on designing educational softwares
-          and learning Flutter + Ktor.
+          working at <Link href="https://paycore.com/" target="_blank">Paycore</Link> as an Android Developer.
         </Paragraph>
       </Section>
 
@@ -125,6 +125,17 @@ const Home = () => (
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
                 @furkanturkn
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.youtube.com/channel/UCA-9SqVvlnVblV-givY2tWg" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoYoutube} />}
+              >
+                @icodethis
               </Button>
             </Link>
           </ListItem>
@@ -150,6 +161,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+
         </List>
 
         <Box align="center" my={4}>

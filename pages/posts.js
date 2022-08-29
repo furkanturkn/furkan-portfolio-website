@@ -3,12 +3,34 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
+import thumbKtorRestApi from '../public/images/contents/youtube-ktor-restapi.jpg'
+import thumbPlateScanner from '../public/images/contents/youtube-plate-scanner-thumb.jpg'
 import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
 import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
+      <Heading as="h3" fontSize={20} mb={4}>
+        My videos about Android
+      </Heading>
+
+      <Section delay={0.1}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="How to create Kotlin Ktor RestAPI with MongoDB?"
+            thumbnail={thumbKtorRestApi}
+            href="https://youtu.be/VFDsYx-R_I8"
+          />
+          <GridItem
+            title="MVVM Plate Scanner Android App"
+            thumbnail={thumbPlateScanner}
+            href="https://www.youtube.com/watch?v=G3pjrZhLCwE&list=PLmaWWI1_HUztFycSdvXGtUzX8NR0C9UGY"
+          />
+        </SimpleGrid>
+      </Section>
+
+
       <Heading as="h3" fontSize={20} mb={4}>
         My posts about Android
       </Heading>
