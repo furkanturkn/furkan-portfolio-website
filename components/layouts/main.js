@@ -18,13 +18,16 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Hi, my name is Furkan, I am a mobile application developer and educational content creator. If you want to know more about me, come in!" />
         <meta name="author" content="Furkan Türkan" />
         <meta name="author" content="furkanturkan" />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="android developer, furkanturkan, mobile developer, instructional designer"></meta>
+        <meta name="language" content="English" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="linkedin:card" content="summary_large_image" />
         <meta name="linkedin:site" content="@furkanturkan" />
         <meta name="linkedin:creator" content="@furkanturkan" />
         <meta name="linkedin:image" content="/card.png" />
-        <meta property="og:site_name" content="Furkan Türkan's Homepage" />
+        <meta property="og:site_name" content="Furkan Türkan's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
         <title>Furkan Türkan - Homepage</title>
