@@ -5,8 +5,8 @@ import { GridItem } from '../components/grid-item'
 
 import thumbKtorRestApi from '../public/images/contents/youtube-ktor-restapi.jpg'
 import thumbPlateScanner from '../public/images/contents/youtube-plate-scanner-thumb.jpg'
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
+import thumbMediumRecyclerView from '../public/images/contents/medium-recycler-view.jpg'
+import thumbMediumVectorDrawable from '../public/images/contents/medium-vector-drawable.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -39,12 +39,12 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Android RecyclerView Adapter Example — Multiple ViewTypes"
-            thumbnail={thumbFishWorkflow}
+            thumbnail={thumbMediumRecyclerView}
             href="https://medium.com/@furkantrkn/android-recyclerview-adapter-örneği-multiple-çoklu-viewtypes-viewholders-75f5fa90dc8d"
           />
           <GridItem
             title="Android Drawable Vector Image Creation with SVG pathdata"
-            thumbnail={thumbMyDeskSetup}
+            thumbnail={thumbMediumVectorDrawable}
             href="https://medium.com/@furkantrkn/svg-pathdata-ile-android-drawable-vektörel-görsel-oluşturma-29267fbd6055"
           />
         </SimpleGrid>
