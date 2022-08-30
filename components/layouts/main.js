@@ -23,10 +23,6 @@ const Main = ({ children, router }) => {
         <meta name="language" content="English" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="linkedin:card" content="summary_large_image" />
-        <meta name="linkedin:site" content="@furkanturkan" />
-        <meta name="linkedin:creator" content="@furkanturkan" />
-        <meta name="linkedin:image" content="/card.png" />
         <meta property="og:site_name" content="Furkan Türkan's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
