@@ -5,11 +5,11 @@ import { WorkGridItem } from '../components/grid-item'
 
 
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+import thumbSmartPark from '../public/images/works/smartpark_eyecatch.png'
+import thumbSocialAkce from '../public/images/works/socialakce_eyecatch.png'
+import thumbSutAnnem from '../public/images/works/sut-annem_eyecatch.jpg'
+import thumbVisibleVehicle from '../public/images/works/visible-vehicle_eyecatch.png'
+import thumbWebToApp from '../public/images/works/web-to-app_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -20,15 +20,15 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Smart Park" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="smartpark" title="Smart Park" thumbnail={thumbSmartPark}>
           A parking software running on payment terminals with Android operating system 
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
+            id="socialakce"
             title="Social Akçe"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbSocialAkce}
           >
             A shopping software developed for terminals with android operating system and printer used in social markets.
           </WorkGridItem>
@@ -36,9 +36,9 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
+            id="sutannem"
             title="SütanneM"
-            thumbnail={thumbFourPainters}
+            thumbnail={thumbSutAnnem}
           >
             A mobile application that aims to bring together mothers and those who need breast milk.
             A freelance project I wrote natively for Android and IOS. 
@@ -57,8 +57,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
+            id="visiblevehicle"
+            thumbnail={thumbVisibleVehicle}
             title="Visible Vehicle"
           >
             An android-based social responsibility project that aims to increase 
@@ -77,7 +77,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Web to App">
+          <WorkGridItem id="webtoapp" thumbnail={thumbWebToApp} title="Web to App">
           Native android app template that I developed for those who want to migrate their websites to android application. 
           Technologies used in the project are Java and mongoDB
           </WorkGridItem>
