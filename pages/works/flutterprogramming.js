@@ -1,6 +1,6 @@
 
   import Layout from '../../components/layouts/article'
-  
+  import {Heading} from '@chakra-ui/react'
   const Work = () => (
     <Layout title="amembo">
       <Heading as="h3" fontSize={20} mb={4}>
