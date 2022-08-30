@@ -10,6 +10,7 @@ import thumbSocialAkce from '../public/images/works/socialakce_eyecatch.png'
 import thumbSutAnnem from '../public/images/works/sut-annem_eyecatch.jpg'
 import thumbVisibleVehicle from '../public/images/works/visible-vehicle_eyecatch.png'
 import thumbWebToApp from '../public/images/works/web-to-app_eyecatch.png'
+import thumbFlutterProgramingEyecatch from '../public/images/works/flutter-programing_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -84,6 +85,34 @@ const Works = () => (
 
         </Section>
       </SimpleGrid>
+
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+        Educational Flutter Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem 
+          id="flutterprogramming"
+          title="Learn Programming"
+          thumbnail={thumbFlutterProgramingEyecatch}/>
+        </Section>
+
+        <Section>
+          <WorkGridItem
+            id="flutteralgorithm"
+            title=" Learn Algorithm"
+            thumbnail={thumbFlutterProgramingEyecatch}/>
+        </Section>
+
+      </SimpleGrid>
+
+
+
     </Container>
   </Layout>
 )
