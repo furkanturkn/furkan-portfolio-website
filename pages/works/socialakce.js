@@ -33,8 +33,8 @@ const Work = () => (
 
   
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/sosyal_akce/social_akce_2.jpg" alt="walknote" />
-        <WorkImage src="/images/works/sosyal_akce/social_akce_1.jpg" alt="walknote" />
+        <WorkImage src="/images/works/sosyal_akce/social_akce_2.jpg" alt="social akçe" />
+        <WorkImage src="/images/works/sosyal_akce/social_akce_1.jpg" alt="social akçe" />
       </SimpleGrid>
     </Container>
   </Layout>
