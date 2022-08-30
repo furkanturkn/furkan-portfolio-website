@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Furkan's homepage" />
+        <meta name="description" content="Hi, my name is Furkan, I am a mobile application developer and educational content creator. If you want to know more about me, come in!" />
         <meta name="author" content="Furkan Türkan" />
         <meta name="author" content="furkanturkan" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
