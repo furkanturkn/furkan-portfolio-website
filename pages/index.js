@@ -67,7 +67,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        I am developing Anroid applications using Kotlin and Java. I also worked on native iOS application development with Swift and cross-platform application development with Flutter for a while. I have intermediate knowledge of Adobe Illustrator, Photoshop, XD, Animate, Figma.
+        I am developing Anroid applications using Kotlin and Java. I also worked on native iOS application development with Swift and cross-platform application development with Flutter for a while. I have intermediate knowledge of Adobe Illustrator, Photoshop, XD, Animate, Figma. I am experienced in android handheld terminal SDKs.
         {' '}
         </Paragraph>
         <Box align="center" my={4}>
@@ -100,6 +100,11 @@ const Home = () => (
           <BioYear>2020 to 2022</BioYear>
           Work as a native android developer at Sekompos
         </BioSection>
+        <BioSection>
+          <BioYear>2022 to 2023</BioYear>
+          Work as a native android developer at Paycore
+        </BioSection>
+
       </Section>
 
       <Section delay={0.3}>
@@ -107,7 +112,7 @@ const Home = () => (
         🌱 I’m currently
         </Heading>
         <Paragraph>
-          working at <Link href="https://paycore.com/" target="_blank">Paycore</Link> as an Android Developer.
+          working at <Link href="https://www.verisoftgroup.com/" target="_blank">Verisoft</Link> as an Android Developer.
         </Paragraph>
       </Section>
 
