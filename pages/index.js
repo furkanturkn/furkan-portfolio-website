@@ -105,6 +105,11 @@ const Home = () => (
           Work as a native android developer at Paycore
         </BioSection>
 
+        <BioSection>
+          <BioYear>? to ?</BioYear>
+          Work as a native android developer at Verisoft
+        </BioSection>
+
       </Section>
 
       <Section delay={0.3}>
@@ -112,7 +117,7 @@ const Home = () => (
         🌱 I’m currently
         </Heading>
         <Paragraph>
-          working at <Link href="https://www.verisoftgroup.com/" target="_blank">Verisoft</Link> as an Android Developer.
+          working at <Link href="https://simprasuite.com.tr/" target="_blank">Simpra</Link> as an Android Developer.
         </Paragraph>
       </Section>
 
