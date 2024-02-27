@@ -109,12 +109,7 @@ const Home = () => (
           <BioYear>2023 to 2023</BioYear>
           Work as a native android developer at Verisoft
         </BioSection>
-
-        <BioSection>
-          <BioYear>2023 to 2024</BioYear>
-          Work as a native android developer at Protel/ Simpra
-        </BioSection>
-
+        
       </Section>
 
       <Section delay={0.3}>
