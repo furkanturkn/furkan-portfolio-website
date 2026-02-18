@@ -16,7 +16,7 @@ const Work = () => (
         SütanneM <Badge>2021</Badge>
       </Title>
       <P>
-      A mobile application that aims to bring together mothers and those who need breast milk.
+        An application developed natively for Android and iOS. Features include chat, map integration, and user matching.
       </P>
       <List ml={4} my={4}>
       <ListItem>

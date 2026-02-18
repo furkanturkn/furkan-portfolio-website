@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -11,7 +10,6 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -33,7 +31,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a native android developer based in Turkey!
+        Mobile Application & SDK Developer · Istanbul, Türkiye
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,7 +39,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Furkan Türkan
           </Heading>
-          <p>Native Android Developer</p>
+          <p>Mobile Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,52 +62,28 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
-        </Heading>
-        <Paragraph>
-        I am developing Anroid applications using Kotlin and Java. I also worked on native iOS application development with Swift and cross-platform application development with Flutter for a while. I have intermediate knowledge of Adobe Illustrator, Photoshop, XD, Animate, Figma. I am experienced in android handheld terminal SDKs.
-        {' '}
-        </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
-      </Section>
-
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000</BioYear>
-          Born in Turkey.
+          <BioYear>2019 – 2024</BioYear>
+          Computer Education & Instructional Technology at Bahçeşehir University.
         </BioSection>
         <BioSection>
-          <BioYear>2019</BioYear>
-          Start to study department of Computer Education and Instructional Technologies
-          at Bahçeşehir University.
+          <BioYear>2019 – 2021</BioYear>
+          Android Developer at Sekompos.
         </BioSection>
         <BioSection>
-          <BioYear>2018 to 2020</BioYear>
-          Work as a freelance native android and ios mobile developer
+          <BioYear>2022 – 2023</BioYear>
+          Android Developer at PayCore.
         </BioSection>
         <BioSection>
-          <BioYear>2020 to 2022</BioYear>
-          Work as a native android developer at Sekompos
+          <BioYear>2023</BioYear>
+          Android Developer at Verisoft (3 months).
         </BioSection>
         <BioSection>
-          <BioYear>2022 to 2023</BioYear>
-          Work as a native android developer at Paycore
+          <BioYear>2023 – Present</BioYear>
+          Android Developer at Simpra.
         </BioSection>
-
-        <BioSection>
-          <BioYear>2023 to 2023</BioYear>
-          Work as a native android developer at Verisoft
-        </BioSection>
-        
       </Section>
 
       <Section delay={0.3}>
@@ -138,7 +112,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.youtube.com/channel/UCA-9SqVvlnVblV-givY2tWg" target="_blank">
+            <Link href="https://youtube.com/@icodethis" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -149,7 +123,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/furkanturkan/" target="_blank">
+            <Link href="https://linkedin.com/in/furkanturkan" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -172,14 +146,6 @@ const Home = () => (
           </ListItem>
 
         </List>
-
-        <Box align="center" my={4}>
-          <NextLink href="/posts">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>

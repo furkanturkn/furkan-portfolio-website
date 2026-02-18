@@ -10,15 +10,15 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="SocialAkce">
+  <Layout title="Sosyal Akçe">
     <Container>
       <Title>
-        Social Akçe <Badge>2020-2021</Badge>
+        Sosyal Akçe <Badge>2020–2021</Badge>
       </Title>
       <P>
-      A shopping software developed for terminals with android 
-      operating system and printer used in social markets.<br></br>
-      • Money transfer to social card and social card shopping transactions with NFC. 
+        A shopping software developed for Android hand terminals with printer used in social markets.
+        <br /><br />
+        • Money transfer to social card and social card shopping transactions with NFC.
       </P>
       <List ml={4} my={4}>
         <ListItem>

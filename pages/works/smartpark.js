@@ -10,12 +10,13 @@ const Work = () => (
         Smart Park <Badge>2020-</Badge>
       </Title>
       <P>
-      A parking software running on payment terminals with Android operating system<br></br><br></br>
-      • Vehicle photography<br></br>
-      • Payment system<br></br>
-      • Valet location and transaction tracking<br></br>
-      • Vehicle transfer<br></br>
-      • E-Archive integration 
+        A parking software running on Android hand terminals.
+        <br /><br />
+        • Vehicle photography<br />
+        • Payment system<br />
+        • Valet location and transaction tracking<br />
+        • Vehicle transfer<br />
+        • E-Archive integration
       </P>
       <List ml={4} my={4}>
         

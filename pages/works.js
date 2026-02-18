@@ -1,118 +1,76 @@
-import { Container, Heading, SimpleGrid, Divider, } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-
-
 import thumbSmartPark from '../public/images/works/smartpark_eyecatch.png'
 import thumbSocialAkce from '../public/images/works/socialakce_eyecatch.png'
 import thumbSutAnnem from '../public/images/works/sut-annem_eyecatch.jpg'
-import thumbVisibleVehicle from '../public/images/works/visible-vehicle_eyecatch.png'
-import thumbWebToApp from '../public/images/works/web-to-app_eyecatch.png'
-import thumbFlutterProgramingEyecatch from '../public/images/works/flutter-programing_eyecatch.png'
+import thumbPlaceholder from '../public/images/works/smartpark_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Projects
       </Heading>
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="smartpark" title="Smart Park" thumbnail={thumbSmartPark}>
-          A parking software running on payment terminals with Android operating system 
+          <WorkGridItem id="logolog" title="logolog" thumbnail={thumbPlaceholder}>
+            October 2025 – Present
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="socialakce"
-            title="Social Akçe"
-            thumbnail={thumbSocialAkce}
-          >
-            A shopping software developed for terminals with android operating system and printer used in social markets.
+          <WorkGridItem id="pinqponq" title="pinqponq.io" thumbnail={thumbPlaceholder}>
+            October 2025 – Present
           </WorkGridItem>
         </Section>
-
         <Section delay={0.1}>
-          <WorkGridItem
-            id="sutannem"
-            title="SütanneM"
-            thumbnail={thumbSutAnnem}
-          >
-            A mobile application that aims to bring together mothers and those who need breast milk.
-            A freelance project I wrote natively for Android and IOS. 
+          <WorkGridItem id="turangold" title="Turan Gold" thumbnail={thumbPlaceholder}>
+            A Kotlin Multiplatform (KMP) application delivering real-time gold prices and market tracking. March 2025 – June 2025.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="sutannem" title="SütanneM" thumbnail={thumbSutAnnem}>
+            An application developed natively for Android and iOS. Features include chat, map integration, and user matching. March 2021 – August 2021.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
-
         <Heading as="h3" fontSize={20} mb={4}>
-        Social Responsibility Projects
+          Released
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem
-            id="visiblevehicle"
-            thumbnail={thumbVisibleVehicle}
-            title="Visible Vehicle"
-          >
-            An android-based social responsibility project that aims to increase 
-            the participation of disabled individuals in society by using public transportation vehicles more easily. 
+          <WorkGridItem id="smartpark" title="Smart Park" thumbnail={thumbSmartPark}>
+            A parking software running on Android hand terminals.
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old works
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem id="socialakce" title="Sosyal Akçe" thumbnail={thumbSocialAkce}>
+            A shopping software developed for Android hand terminals with printer used in social markets.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.4}>
+          <WorkGridItem id="camerax-mlkit-pack" title="camerax-mlkit-pack" thumbnail={thumbPlaceholder}>
+            Open-source library. Kotlin/Android.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.4}>
+          <WorkGridItem id="deveng-networking" title="Deveng Networking Module (KMP)" thumbnail={thumbPlaceholder}>
+            Open-source Kotlin Multiplatform networking abstraction library.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.5}>
-          <WorkGridItem id="webtoapp" thumbnail={thumbWebToApp} title="Web to App">
-          Native android app template that I developed for those who want to migrate their websites to android application. 
-          Technologies used in the project are Java and mongoDB
+          <WorkGridItem id="deveng-core" title="Core UI Library (Compose)" thumbnail={thumbPlaceholder}>
+            Reusable component system for standardized Jetpack Compose development.
           </WorkGridItem>
-
         </Section>
       </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-        Educational Flutter Projects
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem 
-          id="flutterprogramming"
-          title="Learn Programming"
-          thumbnail={thumbFlutterProgramingEyecatch}/>
-        </Section>
-
-        <Section>
-          <WorkGridItem
-            id="flutteralgorithm"
-            title=" Learn Algorithm"
-            thumbnail={thumbFlutterProgramingEyecatch}/>
-        </Section>
-
-      </SimpleGrid>
-
-
-
     </Container>
   </Layout>
 )
