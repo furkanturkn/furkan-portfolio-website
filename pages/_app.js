@@ -1,10 +1,16 @@
+import { useEffect } from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
 import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
+import { initPinqloqClient } from '../lib/pinqloq'
 
 function Website({ Component, pageProps, router }) {
+  useEffect(() => {
+    initPinqloqClient(router)
+  }, [router])
+
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
